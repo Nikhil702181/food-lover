@@ -10,7 +10,8 @@ a:hover{ color:#e58f00;}
 
 /*Main COntent*/
 /*#wrapper{ width:943px; margin:0 auto;}*/
-.container{max-width: min(1290px, 96%);width: auto; margin:0 auto;} 
+/* .container{max-width: min(1290px, 96%);width: auto; margin:0 auto;} */
+.container{max-width: 1290px;width: auto; margin:0 auto;} 
 
 
 .headertop{background: url('../images/top-bg.jpg')top center no-repeat;background-size: cover; background-color:#28282d;background-blend-mode:overlay; }

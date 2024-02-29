@@ -1,0 +1,97 @@
+/*** GLOBAL SETTING ***/
+body {margin:0; padding:0;font:normal 18px 'Montserrat', sans-serif; color:#000; line-height:normal;background: #1d1d23;overflow-x: hidden;}
+img{max-width: 100%;width:auto;height: auto;}
+
+/*'aachen-bt-roman', sans-serif;*/
+
+/*** GLOBAL SELECTORS ***/
+a{ color:#fff; }
+a:hover{ color:#e58f00;}  
+
+/*Main COntent*/
+/*#wrapper{ width:943px; margin:0 auto;}*/
+.container{max-width: min(1290px, 96%);width: auto; margin:0 auto;} 
+
+
+.headertop{background: url('../images/top-bg.jpg')top center no-repeat;background-size: cover; background-color:#28282d;background-blend-mode:overlay; }
+/*.headertop:before{position:absolute;content:'';top:0;bottom:0;left:0;right:0;background:#000000a3;background-size:cover;}*/
+ 
+.topnav{width: 1185px;margin: 0px 0 0 0px;text-align: center; padding: 40px 0 0 0 }
+.lft{display: inline-block; float: left;}
+.lft ul{width: 358px}
+.lft li {display: inline-block;font-size: 12px; font-weight: 400;}
+.lft li+li {margin:20px 0 0 40px}
+.logo{display: inline-block;text-align: center;}
+.rgt{display: inline-block;float: right;}
+.rgt ul{width: 276px}
+.rgt li{display: inline-block;font-size: 12px; font-weight: 400}
+.rgt li+li {margin:  20px 0 0 40px}
+.top{margin: 115px 0 75px 20px;float: left; width: 600px}
+.caption{float: right;width: 550px;margin: 130px 0 0 0;padding:0 110px 0 0}
+.caption  h1{ font-size:64px;font-weight:700;color:#e58f00;}
+.caption p{font-size: 25px;color:#fff;margin: 30px 0 60px 0}
+.caption a{padding: 25px 39px;background: #e58f00;border-radius: 10px;color: #000;font-size: 20px;font-weight: 600;}
+
+.sec1 .content{padding:  120px 40px 75px 40px;}
+.sec1 .left{float: left;width: 50%}
+.sec1 .right{float:right; color: #fff;width: 50%;}
+.sec1 .right h2 {font-size: 30px;font-weight: 800;padding: 90px 0 35px 0;}
+.sec1 .right p {font-size: 25px;font-weight: 700;line-height: 1.4;}
+ 
+.sec2 {margin: 85px 0 180px 0 ;}
+.sec2 .content{background: url('../images/back.png')no-repeat;background-size: cover; position: relative;}
+.sec2 .content:before {background: url('../images/waffels.png') no-repeat top right;position: absolute;content: '';top:-85px;right: -26%;bottom: 0;width: 709px;height: 709px}
+.sec2 .content h2{color: #fff;font-size: 48px;font-weight: 700;padding: 370px 0 0 70px}
+.sec2 .content p{color: #fff;font-size: 30px;font-weight: 700;padding: 20px 0 0 70px;width: 530px}
+.sec2 .bgimg{position: relative;text-align:end;margin:-75px 0 0 0}
+.sec2 .bgimg:after {background: url('../images/qua-food2.png') no-repeat bottom left;position: absolute;content: '';top:9cm;left: -2cm;right: 0;bottom:0;height: 543px;width: 543px;}
+.sec2 .bgimg img{padding: 0% 0% 0 0;margin: 0 -32px 0 0;}
+ 
+.sec3 h3 {color:#fff;font-size: 45px;font-weight: 700;text-align: center;}
+.sec3 .gallary{margin: 30px 0 150px 0}
+.sec3 .gallary ul{font-size: 0}
+.sec3 .gallary li{display: inline-block;padding: 30px 28px 30px 28px;vertical-align: middle;}
+
+.sec4 {background: url('../images/enjoyfood.jpg')no-repeat top center;background-size: cover;}
+.sec4 .enjoysec{padding: 196px 0}
+.sec4 .enjoy{background: #202027;width: 605px;border: 7px solid #c87f08;margin: auto;}
+.sec4 .enjoy h3{color: #fff;font-size: 45px;font-weight: 400;text-align: center;padding: 70px 0 0 0}
+.sec4 .enjoy .p{color: #fff;font-size: 30px;font-weight: 700;}
+.sec4 .enjoy p{text-align: center;padding: 25px 70px 75px 70px}
+ 
+.sec5 {margin: 150px 0 130px 0;}
+.sec5 h3 {color:#fff;font-size: 45px;font-weight: 700;text-align: center;}
+.sec5 .ourmenu ul{font-size: 0}
+.sec5 .ourmenu li{display: inline-block;padding: 60px 30px 30px 30px;vertical-align: middle; width:365px}
+.sec5 .ourmenu h4 {color:#e58f00; font-size: 24px;font-weight: 700;padding: 40px 0 0 0}
+.sec5 .ourmenu .price {color:#e58f00; font-size: 22px;font-weight: 700;padding:  0 0 0 0}
+.sec5 .ourmenu p {color:#fff; font-size: 16px;font-weight: 600;padding: 23px 0;}
+
+.sec6 {background:#e58f00;padding: 16px 0 17px 0}
+.sec6 .container{position: relative;}
+.sec6 .best {width: 425px;margin: auto 46%; padding: 10% 0 10% 60px;}
+.sec6 .bestmeal {position: absolute;width: 569px;top: 50%;margin-top: -284px;left: -30px}
+.sec6 .best h4 {color:#fff; font-size: 40px;font-weight: 700;}
+.sec6 .best p {color:#fff; font-size: 25px;font-weight: 600;}
+ 
+.footer{text-align: center;background: #35353b;padding: 80px 0}
+.footer .btm-nav ul {font-size: 0}
+.footer .btm-nav li {display: inline-block;font-size: 16px;font-weight: 500; color: #e7e6e6;margin: 0  35px 0 35px;vertical-align: middle;}
+.footer .btm-nav li:hover{color: #e58f00}
+.footer .flogo {padding: 0px 0 55px 50px}
+ 
+.fb,.link,.twtr,.insta{margin: 50px 0 0 25px;background: url('../images/media.png') no-repeat top center;width:46px; height:46px; display: inline-block;}
+
+.fb{background-position: 16px -26px;background-color: #000;border-radius: 50%;}
+.fb:hover{background-position: 16px 11px;background-color: #fff;border-radius: 50%;}
+
+.link{background-position: -30px -26px;background-color: #000;border-radius: 50%;}
+.link:hover{background-position: -30px 11px;background-color: #fff;border-radius: 50%;}
+
+.twtr{background-position: -80px -26px;background-color: #000;border-radius: 50%;}
+.twtr:hover{background-position: -80px 11px;background-color: #fff;border-radius: 50%;}
+
+.insta{background-position: -133px -26px;background-color: #000;border-radius: 50%;}
+.insta:hover{background-position: -133px 11px;background-color: #fff;border-radius: 50%;}
+
+ 
